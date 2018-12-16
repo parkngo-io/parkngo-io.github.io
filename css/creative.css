@@ -147,22 +147,6 @@ img::-moz-selection {
     position: relative;
     display: inline-block;
   }
-
-  #mainNav .navbar-brand .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-  }
-
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-  }
   
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
