@@ -138,11 +138,11 @@ img::-moz-selection {
     border-color: transparent;
     background-color: transparent;
   }
-  #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+  #mainNav .navbar-brand .image {
+    background: url("/img/parkngo_logo.png") no-repeat;
   }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+  #mainNav .navbar-brand:focus, #mainNav .image .navbar-brand:hover {
+    background: url("/img/parkngo_logo.png") no-repeat;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -159,11 +159,11 @@ img::-moz-selection {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
-  #mainNav.navbar-shrink .image {
-    content:url("/img/parkngo_logo_alternate.png");
+  #mainNav.navbar-shrink .image .navbar-brand {
+    background: url("/img/parkngo_logo_alternate.png") no-repeat;
   }
-  #mainNav.navbar-shrink .image:focus, #mainNav.navbar-shrink .image:hover {
-    content:url("/img/parkngo_logo_alternate.png");
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .image .navbar-brand:hover {
+    background: url("/img/parkngo_logo_alternate.png") no-repeat;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
