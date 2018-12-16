@@ -159,11 +159,11 @@ img::-moz-selection {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
-  #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+  #mainNav.navbar-shrink .image {
+    content:url("/img/parkngo_logo_alternate.png");
   }
-  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .image:hover {
+    content:url("/img/parkngo_logo_alternate.png");
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
