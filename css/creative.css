@@ -166,14 +166,6 @@ img::-moz-selection {
     content:url("/img/parkngo_logo_alternate.png");
   }
 
-  #mainNav.navbar-shrink .image:after {
-    content:url("/img/parkngo_logo_alternate.png");
-  }
-
-  #mainNav.navbar-shrink .image:after:focus, #mainNav.navbar-shrink .image:after:hover {
-    content:url("/img/parkngo_logo_alternate.png");
-  }
-
   #mainNav.navbar-shrink .image:focus, #mainNav.navbar-shrink .image:hover {
     content:url("/img/parkngo_logo_alternate.png");
   }
