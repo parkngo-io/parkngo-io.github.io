@@ -138,6 +138,15 @@ img::-moz-selection {
     border-color: transparent;
     background-color: transparent;
   }
+  #mainNav .navbar-brand {
+    position: relative;
+    display: inline-block;
+  }
+
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    position: relative;
+    display: inline-block;
+  }
 
   #mainNav .navbar-brand .img-top {
     display: none;
@@ -154,6 +163,7 @@ img::-moz-selection {
     left: 0;
     z-index: 99;
   }
+  
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
