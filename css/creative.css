@@ -162,7 +162,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink .image {
     content:url("/img/parkngo_logo_alternate.png");
   }
-  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .image:hover {
+  #mainNav.navbar-shrink .image:focus, #mainNav.navbar-shrink .image:hover {
     content:url("/img/parkngo_logo_alternate.png");
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
