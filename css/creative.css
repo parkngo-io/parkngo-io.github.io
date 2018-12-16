@@ -139,10 +139,10 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    background: url("/img/parkngo_logo.png") no-repeat;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    background: url("/img/parkngo_logo.png") no-repeat;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
