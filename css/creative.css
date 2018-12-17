@@ -184,20 +184,16 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  -webkit-animation: zoomin 5s 1;
+  animation: breath 4s linear infinite;
   background-image: url("../img/cars-parking-street.jpg");
   background-position: center center;
   background-size: cover;
 }
 
-@-webkit-keyframes zoomin {
-  0% {
-      -webkit-transform: scale(1);
-  }
-  100% {
-      -webkit-transform: scale(2);
-  }
-
+@keyframes breath {
+  0%   { background-size: 100% auto; }
+  50% { background-size: 140% auto; }
+  100% { background-size: 100% auto; }
 }
 
 header.masthead hr {
