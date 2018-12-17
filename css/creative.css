@@ -185,8 +185,8 @@ header.masthead {
   padding-top: 10rem;
   position: relative;
   padding-bottom: calc(10rem - 56px);
-  -webkit-animation: zoomin 10s ease-in infinite;
-  animation: zoomin 10s ease-in infinite;
+  -webkit-animation: zoomin 30s ease-in infinite;
+  animation: zoomin 30s ease-in infinite;
   background-image: url("../img/cars-parking-street.jpg");
   background-position: center center;
   background-size: cover;
@@ -203,18 +203,6 @@ header.masthead {
   50% {transform: scale(1.5);}
   100% {transform: scale(1);}
 } /*End of Zoom in Keyframes */
-zoom
-@keyframes zoom {
-  0% {
-    background-size: 100% 100%;
-  }
-  50% {
-    background-size: 120% 120%;
-  }
-  100% {
-    background-size: 100% 100%;
-  }
-}
 
 header.masthead hr {
   margin-top: 30px;
