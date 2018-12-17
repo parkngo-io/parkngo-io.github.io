@@ -185,8 +185,8 @@ header.masthead {
   padding-top: 10rem;
   position: relative;
   padding-bottom: calc(10rem - 56px);
-  -webkit-animation: zoomin 60s ease-in infinite;
-  animation: zoomin 60s ease-in infinite;
+  -webkit-animation: zoomin 120s ease-in infinite;
+  animation: zoomin 120s ease-in infinite;
   background-image: url("../img/cars-parking-street.jpg");
   background-position: center center;
   background-size: cover;
