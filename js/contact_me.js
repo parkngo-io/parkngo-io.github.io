@@ -25,9 +25,12 @@ $(function() {
         data: {
           name: name,
           phone: phone,
+          _replyto:email,
           email: email,
-          message: message
+          message: message,
+          _subject:'My Form Submission',
         },
+        dataType:"json",
         cache: false,
         success: function() {
           // Success message
