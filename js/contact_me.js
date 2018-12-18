@@ -28,7 +28,7 @@ $(function() {
           _replyto:email,
           email: email,
           message: message,
-          _subject:'My Form Submission',
+          _subject:'Someone reached out through ParknGo.io',
         },
         dataType:"json",
         cache: false,
