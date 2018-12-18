@@ -10,7 +10,7 @@ html {
   height: 100%;
 }
 
-body {
+p, body {
   font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -34,7 +34,6 @@ a:hover {
   color: #f05f40;
 }
 
-p,
 h1,
 h2,
 h3,
