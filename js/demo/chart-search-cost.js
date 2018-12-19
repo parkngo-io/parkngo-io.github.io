@@ -8,10 +8,13 @@ console.log(palette('tol', 10))
 var myPieChart = new Chart(ctx, {
   type: 'pie',
   data: {
-    labels: ["New York", "Los Angeles", "San Francisco", "Washington D.C", "Seattle", "Chicago", "Boston", "Atlanta", "Dallas", "Detroit", "Others"],
+    labels: ["New York", "Los Angeles", "San Francisco", "Washington D.C", "Seattle", "Chicago", "Boston", "Atlanta", "Dallas", "Detroit"],
     datasets: [{
-      data: [4300, 3700, 655, 329, 490, 1300, 262, 251, 726, 209, 60478],
-      backgroundColor: palette('tol-dv', 11)
+      data: [4300, 3700, 655, 329, 490, 1300, 262, 251, 726, 209],
+      backgroundColor: palette('tol-dv', 10)
     }],
   },
+  legend: {
+    display: true
+  }
 });

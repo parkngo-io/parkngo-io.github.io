@@ -7,22 +7,25 @@ var ctx = document.getElementById("search-time-cost");
 var myLineChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ["US", "New York", "Los Angeles", "San Francisco", "Washington D.C", "Seattle", "Chicago", "Boston", "Atlanta", "Dallas", "Detroit"],
+    labels: ["New York", "Los Angeles", "San Francisco", "Washington D.C", "Seattle", "Chicago", "Boston", "Atlanta", "Dallas", "Detroit"],
     datasets: [
+      { type: 'line',
+      fill: false,
+      lineTension: 0,
+      label: "Annual search cost ($)",
+      backgroundColor: "rgb(170, 28, 59)",
+      borderColor: "rgb(170, 28, 59)",
+      yAxisID: 'B',
+      data: [2243, 1785, 1735, 1367, 1205, 1174, 1111, 1043, 995, 731],
+    },
       {
       label: "Annual search time (hours)",
-      backgroundColor: "rgb(234, 148, 97)",
-      borderColor: "rgb(234, 148, 97)",
-      yAxisID: 'A',
-      data: [17, 107, 85, 83, 65, 58, 56, 53, 50, 48, 35],
-    },
-    {
-      label: "Annual search cost ($)",
       backgroundColor: "rgb(64, 140, 203)",
       borderColor: "rgb(64, 140, 203)",
-      yAxisID: 'B',
-      data: [345, 2243, 1785, 1735, 1367, 1205, 1174, 1111, 1043, 995, 731],
+      yAxisID: 'A',
+      data: [107, 85, 83, 65, 58, 56, 53, 50, 48, 35],
     }
+
   ],
   },
   options: {
@@ -48,7 +51,7 @@ var myLineChart = new Chart(ctx, {
         position: 'left',
         ticks: {
           min: 0,
-          max: 120,
+          max: 150,
           maxTicksLimit: 5
         },
         gridLines: {

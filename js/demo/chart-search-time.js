@@ -10,11 +10,11 @@ var myLineChart = new Chart(ctx, {
     labels: ["US", "New York", "Los Angeles", "San Francisco", "Washington D.C", "Seattle", "Chicago", "Boston", "Atlanta", "Dallas", "Detroit"],
     datasets: [
       {
-        label: "2hr parking cost ($)",
+        label: "2 hr parking cost ($)",
         yAxisID: 'B',
         type: "line",
         fill: false,
-        lineTension: 0.3,
+        lineTension: 0,
         backgroundColor: "rgb(170, 28, 59)",
         borderColor: "rgb(170, 28, 59)",
         pointRadius: 5,
@@ -27,7 +27,7 @@ var myLineChart = new Chart(ctx, {
         data: [4, 33, 14, 12, 18, 10, 22, 26, 6, 6, 9],
       },
       {
-      label: "On Street (mins per trip)",
+      label: "On Street search (mins)",
       yAxisID: 'A',
       lineTension: 0.3,
       backgroundColor: "rgb(64, 140, 203)",
@@ -42,7 +42,7 @@ var myLineChart = new Chart(ctx, {
       data: [2, 15, 12, 12, 10, 9, 9, 8, 8, 8, 6],
     },
     {
-      label: "Off Street (mins per trip)",
+      label: "Off Street search (mins)",
       yAxisID: 'A',
       lineTension: 0.3,
       backgroundColor: "rgb(234, 148, 97)",
