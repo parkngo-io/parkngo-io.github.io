@@ -10,7 +10,7 @@ var myLineChart = new Chart(ctx, {
     labels: ["US", "New York", "Los Angeles", "San Francisco", "Washington D.C", "Seattle", "Chicago", "Boston", "Atlanta", "Dallas", "Detroit"],
     datasets: [
       {
-        label: "2 hr parking cost ($)",
+        label: "Annual search time (hours)",
         yAxisID: 'B',
         type: "line",
         fill: false,
@@ -24,7 +24,7 @@ var myLineChart = new Chart(ctx, {
         pointHoverBackgroundColor: "rgb(170, 28, 59)",
         pointHitRadius: 50,
         pointBorderWidth: 2,
-        data: [4, 33, 14, 12, 18, 10, 22, 26, 6, 6, 9],
+        data: [17, 107, 85, 83, 65, 58, 56, 53, 50, 48, 35],
       },
       {
       label: "On Street search (mins)",
@@ -79,7 +79,7 @@ var myLineChart = new Chart(ctx, {
         stacked: true,
         ticks: {
           min: 0,
-          max: 35,
+          max: 30,
           maxTicksLimit: 5
         },
         gridLines: {
@@ -89,13 +89,13 @@ var myLineChart = new Chart(ctx, {
       { id: 'B',
       scaleLabel: {
         display: true,
-        labelString: 'cost for 2hr parking ($)'
+        labelString: 'annual search hours'
       },
       position:'right',
         stacked: true,
         ticks: {
           min: 0,
-          max: 35,
+          max: 110,
           maxTicksLimit: 5
         },
         gridLines: {

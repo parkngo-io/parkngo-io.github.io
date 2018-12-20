@@ -35,7 +35,7 @@
     <div id="wrapper">
 
       <!-- Sidebar -->
-      <ul class="sidebar navbar-nav">
+      <ul class="sidebar navbar-nav toggled">
         <li class="nav-item">
           <a class="nav-link" href="./dashboard.html">
             <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -44,17 +44,17 @@
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="./money.html">
-            <i class="fas fa-fw fa-chart-area"></i>
+            <i class="fas fa-fw fa-dollar-sign"></i>
             <span>Money</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./time.html">
-            <i class="fas fa-fw fa-chart-area"></i>
+            <i class="fas fa-fw fa-clock"></i>
             <span>Time</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./trends.html">
-            <i class="fas fa-fw fa-chart-area"></i>
+            <i class="fas fa-fw fa-chart-line"></i>
             <span>Trends</span></a>
         </li>
       </ul>
@@ -74,12 +74,12 @@
           <!-- Area Chart Example-->
           <div class="card mb-3">
             <div class="card-header">
-              <i class="fas fa-chart-area"></i>
-              How much time do you waste looking for parking per trip? How does that stack up with the 2 hour garage parking rates in your city!</div>
+              <i class="fas fa-chart-bar"></i>
+              How much money do you spend (hourly, daily and monthly) for parking in the top 40 cities in the United states?</div>
             <div class="card-body">
-              <canvas id="search-time" width="100%" height="30"></canvas>
+              <canvas id="money-parkopedia" width="100%" height="150"></canvas>
             </div>
-            <div class="card-footer small text-muted">Source - INRIX</div>
+            <div class="card-footer small text-muted">Source - Parkopedia</div>
           </div>
 
           <div class="row">
@@ -178,7 +178,7 @@
     <script src="js/sb-admin.min.js"></script>
 
     <!-- Demo scripts for this page-->
-    <script src="js/demo/chart-search-time.js"></script>
+    <script src="js/demo/chart-money-parkopedia.js"></script>
     <script src="js/demo/chart-time-cost.js"></script>
     <script src="js/demo/chart-search-cost.js"></script>
 
