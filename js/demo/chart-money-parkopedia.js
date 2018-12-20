@@ -18,6 +18,7 @@ var myLineChart = new Chart(ctx, {
     datasets: [
       { 
         lineTension: 0,
+        hidden: true,
         label: "monthly rate",
         data: [616, 265, 425, 284.50, 274,
           260, 190, 190, 150, 205, 
@@ -27,7 +28,7 @@ var myLineChart = new Chart(ctx, {
         127, 215, 160, 175, 106, 
         115, 105, 170, 135, 95, 
         120, 95, 110, 110, 85],
-        backgroundColor: palette('tol-dv', 40).map(i => '#' + i).reverse(),
+        backgroundColor: palette('tol-sq', 40).map(i => '#' + i).reverse(),
         },
       { 
         lineTension: 0,
@@ -40,7 +41,7 @@ var myLineChart = new Chart(ctx, {
         12, 13.62, 10, 12, 16, 
         12, 14, 15, 12, 12, 
         12, 10, 15, 12, 16],
-        backgroundColor: palette('tol-sq', 40).map(i => '#' + i).reverse(),
+        backgroundColor: palette('tol-dv', 40).map(i => '#' + i).reverse(),
         },
       { 
       lineTension: 0,
@@ -67,10 +68,8 @@ var myLineChart = new Chart(ctx, {
           display: true,
           labelString: 'cost ($)'
         },
-        type: "logarithmic",
+        type: "linear",
         ticks: {
-          min: 0,
-          max: 650,
           maxTicksLimit: 5
         },
         gridLines: {
