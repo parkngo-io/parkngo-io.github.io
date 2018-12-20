@@ -43,9 +43,19 @@
           </a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="./charts.html">
+          <a class="nav-link" href="./money.html">
             <i class="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+            <span>Money</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./time.html">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Time</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./trends.html">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Trends</span></a>
         </li>
       </ul>
 
@@ -58,7 +68,7 @@
             <li class="breadcrumb-item">
               <a href="#">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Charts</li>
+            <li class="breadcrumb-item active">Money</li>
           </ol>
 
           <!-- Area Chart Example-->
@@ -95,6 +105,16 @@
                 <div class="card-footer small text-muted">Source: INRIX</div>
               </div>
             </div>
+          </div>
+
+          <div class="card mb-3">
+            <div class="card-header">
+              <i class="fas fa-chart-area"></i>
+              How much time do you waste looking for parking per trip? How does that stack up with the 2 hour garage parking rates in your city!</div>
+            <div class="card-body">
+              <canvas id="search-time" width="100%" height="30"></canvas>
+            </div>
+            <div class="card-footer small text-muted">Source - INRIX</div>
           </div>
 
           <p class="small text-center text-muted my-5">
