@@ -13,16 +13,17 @@ var myLineChart = new Chart(ctx, {
         type: 'line',
         fill: false,
         lineTension: 0,
+        yAxisID:'A',
         label: "2 hr parking cost ($)",
-        backgroundColor: "rgb(170, 28, 59)",
-        borderColor: "rgb(170, 28, 59)",
+        backgroundColor: "rgb(60, 83, 161)",
+        borderColor: "rgb(60, 83, 161)",
 
         data: [33, 14, 12, 18, 10, 22, 26, 6, 6, 9],
       },
       { 
+        yAxisID:'B',
       label: "Annual search cost ($)",
-      backgroundColor: "rgb(64, 140, 203)",
-      borderColor: "rgb(64, 140, 203)",
+      backgroundColor: palette('tol-dv', 10).map(i => '#' + i).reverse(),
       data: [2243, 1785, 1735, 1367, 1205, 1174, 1111, 1043, 995, 731],
     }
 
@@ -43,20 +44,36 @@ var myLineChart = new Chart(ctx, {
         }
       }],
       yAxes: [
-      { 
-        type: "logarithmic",
+      { id:'A',
+        type: "linear",
       scaleLabel: {
         display: true,
-        labelString: 'cost ($)'
+        labelString: 'parking cost ($)'
       },
       position: 'left',
         ticks: {
+          max: 35,
           maxTicksLimit: 5
         },
         gridLines: {
           display: true
         }
-      }],
+      },
+      { id:'B',
+      type: "linear",
+    scaleLabel: {
+      display: true,
+      labelString: 'search cost ($)'
+    },
+    position: 'right',
+      ticks: {
+        max: 2500,
+        maxTicksLimit: 5
+      },
+      gridLines: {
+        display: true
+      }
+    }],
     },
     legend: {
       display: true
