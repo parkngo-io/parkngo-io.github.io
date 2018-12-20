@@ -40,14 +40,14 @@ var myLineChart = new Chart(ctx, {
         12, 13.62, 10, 12, 16, 
         12, 14, 15, 12, 12, 
         12, 10, 15, 12, 16],
-        backgroundColor: palette('tol-dv', 40).map(i => '#' + i).reverse(),
+        backgroundColor: palette('tol-sq', 40).map(i => '#' + i).reverse(),
         },
       { 
       lineTension: 0,
       label: "hourly rate",
       data: [27, 17, 16, 12, 11, 10, 9.5, 9, 9, 8, 8, 8, 8, 8, 7.25, 7, 7, 7, 7,
       6, 6, 6, 6, 6, 6, 6, 5, 4.5, 4, 4, 4, 4, 4, 3.5, 3, 2.5 , 2, 2, 2, 2],
-      backgroundColor: palette('tol-dv', 40).map(i => '#' + i).reverse(),
+      backgroundColor: palette('tol-rainbow', 40).map(i => '#' + i).reverse(),
       }
   ],
   },
@@ -79,7 +79,7 @@ var myLineChart = new Chart(ctx, {
       }],
     },
     legend: {
-      display: false
+      display: true
     }
   }
 });
