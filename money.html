@@ -79,7 +79,7 @@
                 <div class="card mb-3">
                   <div class="card-header">
                     <i class="fas fa-chart-bar"></i>
-                    How much does an average driver waste in a year looking for parking?</div>
+                    How much money does an average driver waste in a year looking for parking?</div>
                   <div class="card-body">
                     <canvas id="search-time-cost" width="100%" height="50"></canvas>
                   </div>
@@ -109,6 +109,31 @@
             <div class="card-footer small text-muted">Source - Parkopedia</div>
           </div>
 
+          <div class="row">
+              <div class="col-lg-4">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <i class="fas fa-chart-pie"></i>
+                    How much does an average driver overpay/year?</div>
+                  <div class="card-body">
+                    <canvas id="overpayment" width="100%" height="110"></canvas>
+                  </div>
+                  <div class="card-footer small text-muted">Source: INRIX</div>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="card mb-3">
+                  <div class="card-header">
+                    <i class="fas fa-chart-area"></i>
+                    Parking tickets per person/year vs tickets cost per person/year and 2hr parking cost as radius </div>
+                  <div class="card-body">
+                    <canvas id="ticket-cost" width="100%" height="50"></canvas>
+                  </div>
+                  <div class="card-footer small text-muted">Source: INRIX</div>
+                </div>
+              </div>
+            </div>
+
           <p class="small text-center text-muted my-5">
             <em>More chart examples coming soon...</em>
           </p>
@@ -136,25 +161,6 @@
       <i class="fas fa-angle-up"></i>
     </a>
 
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-          <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -171,8 +177,10 @@
 
     <!-- Demo scripts for this page-->
     <script src="js/demo/chart-money-parkopedia.js"></script>
+    <script src="js/demo/chart-ticket-cost.js"></script>
     <script src="js/demo/chart-time-cost.js"></script>
     <script src="js/demo/chart-search-cost.js"></script>
+    <script src="js/demo/chart-overpayment.js"></script>
 
   </body>
 

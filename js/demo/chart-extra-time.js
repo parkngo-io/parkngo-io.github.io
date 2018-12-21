@@ -16,13 +16,13 @@ var myLineChart = new Chart(ctx, {
       backgroundColor: "rgb(60, 83, 161)",
       borderColor: "rgb(60, 83, 161)",
       yAxisID: 'B',
-      data: [0.2, 1.31, 1.05, 0.89, 0.81, 0.45, 0.72, 0.71, 0.58, 0.54, 0.35],
+      data: [0.2, 1.31, 1.05, 0.89, 0.81, 0.45, 0.71, 0.72, 0.58, 0.54, 0.35],
     },
       {
       label: "extra time (hours)",
       backgroundColor: palette('tol-dv', 11).map(i => '#' + i).reverse(),
       yAxisID: 'A',
-      data: [13, 96, 70, 68, 59, 46, 43, 40, 35, 30, 22],
+      data: [13, 96, 70, 68, 59, 46, 40, 43, 35, 30, 22],
     }
 
   ],
@@ -60,7 +60,7 @@ var myLineChart = new Chart(ctx, {
       { id: 'B',
       scaleLabel: {
         display: true,
-        labelString: 'no. of tickets'
+        labelString: 'tickets per person/year'
       },
       position: 'right',
         ticks: {
