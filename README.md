@@ -1,2 +1,1 @@
-# parkngo-io.github.io
-ParknGo promotional landing page
+### ParknGo promotional landing page
