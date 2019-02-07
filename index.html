@@ -74,7 +74,16 @@
           </div>
           <div class="col-lg-10 mx-auto">
             <p class="text-faded mb-5">Save time, fuel and money with reservation, real-time navigation and hosting capabilities.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#problem">Find Out More</a>
+            <form id="mc-form" class="form-inline justify-content-center">
+                <div class="form-group mx-sm-3 mb-2 .align-middle">
+                  <label for="inputPassword2" class="sr-only">Email</label>
+                  <input type="text" class="form-control-plaintext text-light shadow-lg p-3 rounded" id="mc-email" placeholder="Email address">
+                </div>
+                <button type="submit" class="btn btn-xl btn-primary .align-middle">Subscribe</button>
+
+                <label for="mc-email" class="subscribe-message"></label>
+            </form>
+            
           </div>
         </div>
       </div>
@@ -405,6 +414,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+    <script src="js/newsletter.js"></script>
 
   </body>
 
