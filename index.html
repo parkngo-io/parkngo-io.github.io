@@ -74,13 +74,11 @@
           </div>
           <div class="col-lg-10 mx-auto">
             <p class="text-faded mb-5">Save time, fuel and money with reservation, real-time navigation and hosting capabilities.</p>
-            <form id="mc-form" class="form-inline justify-content-center">
+            <form id="mc-form" class="form-inline justify-content-center" novalidate="true">
                 <div class="form-group mx-sm-3 mb-2 .align-middle">
-                  <label for="inputPassword2" class="sr-only">Email</label>
-                  <input type="text" class="form-control-plaintext text-light shadow-lg p-3 rounded" id="mc-email" placeholder="Email address">
+                  <input type="email" value="" class="form-control-plaintext text-light shadow-lg p-3 rounded" id="mc-email" placeholder="Email address" required="">
                 </div>
-                <button type="submit" class="btn btn-xl btn-primary .align-middle">Subscribe</button>
-
+                <input type="submit" class="btn btn-xl btn-primary .align-middle" value="SUBSCRIBE">
                 <label for="mc-email" class="subscribe-message"></label>
             </form>
             
@@ -414,7 +412,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
-    <script src="js/newsletter.js"></script>
+    <script src="./js/newsletter.js"></script>
+    <script src="js/mailchimp.js"></script>
 
   </body>
 
