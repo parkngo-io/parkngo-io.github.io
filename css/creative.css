@@ -183,10 +183,10 @@ img::-moz-selection {
 
 header.masthead {
   padding-top: 10rem;
-  position: relative;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/cars-parking-street.jpg");
   background-position: center center;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -345,6 +345,7 @@ header.masthead p {
 
 section#contact {
   background-color: #212529;
+  background-attachment: fixed;
   background-image: url("/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -397,6 +398,13 @@ section#contact :-ms-input-placeholder {
   color: #ced4da;
 }
 
+.line {
+  background-image: url("../img/cars-parking-street.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 #footer {
   background-color: #212529;
   }
@@ -405,6 +413,7 @@ section#contact :-ms-input-placeholder {
     position: relative;
     padding: 0;
     list-style: none;
+    
   }
   
   .timeline:before {

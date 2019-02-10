@@ -46,22 +46,6 @@
     delay: 200,
     scale: 0
   });
-  sr.reveal('.sr-icon-2', {
-    delay: 400,
-    scale: 0
-  });
-  sr.reveal('.sr-icon-3', {
-    delay: 600,
-    scale: 0
-  });
-  sr.reveal('.sr-icon-4', {
-    delay: 800,
-    scale: 0
-  });
-  sr.reveal('.sr-icon-5', {
-    delay: 1000,
-    scale: 0
-  });
   sr.reveal('.sr-button', {
     delay: 200,
     distance: '15px',
