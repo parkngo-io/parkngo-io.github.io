@@ -11,7 +11,7 @@ html {
 
 body {
   height: 100%;
-  font-family: 'Playfair Display', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "europa",sans-serif;
 }
 
 #wrapper {
@@ -102,7 +102,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   border: 0;
   font-weight: 900;
   content: '\f105';
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: ten-oldstyle, serif;
 }
 
 .navbar-nav .nav-item.dropdown.show .dropdown-toggle::after {
