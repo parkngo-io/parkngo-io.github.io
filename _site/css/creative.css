@@ -65,7 +65,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 .section-heading {
@@ -328,7 +328,7 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #F05F40 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
