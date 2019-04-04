@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  font-family: 'Playfair Display', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "europa",sans-serif;
+  font-weight: 100;
 }
 
 hr {
@@ -34,18 +35,25 @@ a:hover {
   color: #f05f40;
 }
 
-h1,
+h1 {
+  font-family: ten-oldstyle, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: ten-oldstyle, serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
-
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-image:  linear-gradient(rgb(240, 80, 44), rgb(238, 116, 64)) !important;
 }
 
 .bg-dark {
@@ -57,7 +65,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 .section-heading {
@@ -94,16 +102,14 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "europa",sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 #mainNav .navbar-brand {
-  font-weight: 700;
-  text-transform: uppercase;
   color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "europa",sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -113,8 +119,6 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
-  font-weight: 700;
-  text-transform: uppercase;
   color: #212529;
 }
 
@@ -184,7 +188,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/cars-parking-street.jpg");
+  background-image: url("../img/parking.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -200,7 +204,15 @@ header.masthead h1 {
 }
 
 header.masthead p {
-  font-weight: 300;
+  font-weight: 100;
+}
+
+#problemicons {
+  height: 200px;
+}
+
+#solutionicons {
+  height: 150px;
 }
 
 @media (min-width: 768px) {
@@ -269,7 +281,7 @@ header.masthead p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 100;
   text-transform: uppercase;
 }
 
@@ -299,11 +311,10 @@ header.masthead p {
 }
 
 .btn {
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 200;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "europa", sans-serif
 }
 
 .btn-xl {
@@ -311,13 +322,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
+  background-image:  linear-gradient(rgb(240, 80, 44), rgb(238, 116, 64)) !important;
   border-color: #F05F40;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #F05F40 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -325,13 +336,15 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 .testimonials {
-  padding-top: 7rem;
+  padding-top: 6rem;
   padding-bottom: 7rem;
 }
 
 .testimonials .testimonial-item {
   max-width: 18rem;
 }
+
+
 
 .testimonials .testimonial-item img {
   max-width: 12rem;
@@ -379,27 +392,27 @@ section#contact .form-control:focus {
 }
 
 section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
+  font-weight: 100;
   color: #ced4da;
 }
 
 section#contact :-moz-placeholder {
-  font-weight: 700;
+  font-weight: 100;
   color: #ced4da;
 }
 
 section#contact ::-moz-placeholder {
-  font-weight: 700;
+  font-weight: 100;
   color: #ced4da;
 }
 
 section#contact :-ms-input-placeholder {
-  font-weight: 700;
+  font-weight: 100;
   color: #ced4da;
 }
 
 .line {
-  background-image: url("../img/cars-parking-street.jpg");
+  background-image: url("../img/parking.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -644,7 +657,7 @@ header.masthead-terms .site-heading h1 {
 header.masthead-terms .page-heading .subheading,
 header.masthead-terms .site-heading .subheading {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.1;
   display: block;
   margin: 10px 0 0;
@@ -669,13 +682,13 @@ header.masthead-terms .post-heading .subheading {
 
 header.masthead-terms .post-heading .subheading {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 100;
   margin: 10px 0 30px;
 }
 
 header.masthead-terms .post-heading .meta {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 100;
   font-style: italic;
 }
 
